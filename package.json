@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "expess": "^0.0.1-security",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
+  },
+  "name": "book-record-management",
+  "description": "<!-- Routes and Endpoints\r /users\r POST: Create a new user white_check_mark GET: Get all list of users white_check_mark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onkarvibhute/book-record-management.git"
+  },
+  "author": "onkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onkarvibhute/book-record-management/issues"
+  },
+  "homepage": "https://github.com/Onkarvibhute/book-record-management#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
