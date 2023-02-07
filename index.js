@@ -69,7 +69,7 @@ app.get("/users/:id", (request, response) =>
  */
 app.post("/users", (request, response) =>
 {
-  const { id, name, email,surname, subcriptionType, subcriptionDate } = request.body;
+  const { id, name, surname,email,subcriptionType, subcriptionDate } = request.body;
   const user = users.find((each) => each.id === id);
 
   
